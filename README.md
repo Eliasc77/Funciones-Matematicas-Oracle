@@ -84,7 +84,7 @@ select sign (-100) from dual;
 |:-------:|
 |-1|
 
-#####si colocamos 100 nos devolvera 1 esto significa q es positivo
+##### si colocamos 100 nos devolvera 1 esto significa q es positivo
 ___
 
 >funcion trunc: corta las cifras decimales de una cantidad;
@@ -105,7 +105,7 @@ select sqrt(27) from dual;
 |:-------:|
 |5.196152422706632|
 
-##### para evitar que salga muchos decimales podemos usar la funcion round combinado con srt a esto se le llama **funciones anidadda**
+##### para evitar que salga muchos decimales podemos usar la funcion round combinado con srt a esto se le llama **funciones** **anidadda**
 ```sql
 select round(sqrt(27)) from dual;
 ```
